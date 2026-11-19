@@ -1,0 +1,13 @@
+{
+    "type": "pow",
+    "base": {
+        "type": "storage",
+        "storage": "libs:calc",
+        "path": "Pow.base"
+    },
+    "exponent": {
+        "type": "storage",
+        "storage": "libs:calc",
+        "path": "Pow.exponent"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "type": "sqrt",
+    "input": {
+        "type": "storage",
+        "storage": "libs:calc",
+        "path": "value"
+    }
+}

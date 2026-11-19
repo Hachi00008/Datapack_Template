@@ -1,0 +1,52 @@
+{
+    "description": {
+        "text": "[コマンド限定] Player Motion",
+        "color": "gold",
+        "bold": true
+    },
+    "anvil_cost": 30,
+    "max_cost": {
+        "base": 30,
+        "per_level_above_first": 0
+    },
+    "min_cost": {
+        "base": 30,
+        "per_level_above_first": 0
+    },
+    "max_level": 255,
+    "slots": [
+        "saddle"
+    ],
+    "supported_items": [],
+    "weight": 1,
+    "effects": {
+        "tick": [
+            {
+                "effect": {
+                    "type": "apply_impulse",
+                    "coordinate_scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "direction": [
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "magnitude": {
+                        "type": "linear",
+                        "base": 0.5,
+                        "per_level_above_first": 0.5
+                    }
+                }
+            },
+            {
+                "effect": {
+                    "type": "run_function",
+                    "function": "libs:tick/player_motion/clear_item"
+                }
+            }
+        ]
+    }
+}

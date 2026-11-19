@@ -1,0 +1,13 @@
+{
+    "type": "sub",
+    "left": {
+        "type": "storage",
+        "storage": "libs:calc",
+        "path": "left"
+    },
+    "right": {
+        "type": "storage",
+        "storage": "libs:calc",
+        "path": "right"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "type": "div",
+    "left": {
+        "type": "round",
+        "input": {
+            "type": "mul",
+            "inputs": [
+                {
+                    "type": "length",
+                    "inputs": [
+                        {
+                            "type": "sub",
+                            "left": {
+                                "type": "storage",
+                                "storage": "libs:calc",
+                                "path": "Pos.target[0]"
+                            },
+                            "right": {
+                                "type": "storage",
+                                "storage": "libs:calc",
+                                "path": "Pos.self[0]"
+                            }
+                        },
+                        {
+                            "type": "sub",
+                            "left": {
+                                "type": "storage",
+                                "storage": "libs:calc",
+                                "path": "Pos.target[1]"
+                            },
+                            "right": {
+                                "type": "storage",
+                                "storage": "libs:calc",
+                                "path": "Pos.self[1]"
+                            }
+                        },
+                        {
+                            "type": "sub",
+                            "left": {
+                                "type": "storage",
+                                "storage": "libs:calc",
+                                "path": "Pos.target[2]"
+                            },
+                            "right": {
+                                "type": "storage",
+                                "storage": "libs:calc",
+                                "path": "Pos.self[2]"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "constant",
+                    "value": 100
+                }
+            ]
+        }
+    },
+    "right": {
+        "type": "constant",
+        "value": 100
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "type": "mul",
+    "inputs": [
+        {
+            "type": "storage",
+            "storage": "libs:calc",
+            "path": "left"
+        },
+        {
+            "type": "storage",
+            "storage": "libs:calc",
+            "path": "right"
+        }
+    ]
+}
